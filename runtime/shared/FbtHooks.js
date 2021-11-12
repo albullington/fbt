@@ -58,6 +58,7 @@ export type FbtInputOpts = {
   hk?: string,
   // enum hash key
   ehk?: FbtEnumHashKeyTable,
+  locale?: string
   ...
 };
 export type FbtRuntimeCallInput = {

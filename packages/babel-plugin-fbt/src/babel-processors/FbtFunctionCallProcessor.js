@@ -657,6 +657,10 @@ class FbtFunctionCallProcessor {
         (fbtElementOptions.doNotExtract ??
           enforceBoolean.orNull(defaultFbtOptions.doNotExtract)) ||
         null,
+      locale:
+        (fbtElementOptions.locale ??
+          enforceString.orNull(defaultFbtOptions.locale)) ||
+        null,
       preserveWhitespace:
         (fbtElementOptions.preserveWhitespace ??
           enforceBoolean.orNull(defaultFbtOptions.preserveWhitespace)) ||

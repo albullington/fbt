@@ -27,6 +27,7 @@ export type FbtCallSiteOptions = $Shape<{|
   // TODO(T56277500) Refine to expected type: string
   common?: ?FbtOptionValue,
   doNotExtract?: ?boolean,
+  locale?: ?FbtOptionValue,
   // TODO(T56277500) Refine to expected type: boolean
   preserveWhitespace?: ?FbtOptionValue,
   project: string,
