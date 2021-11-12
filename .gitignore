@@ -39,3 +39,4 @@ packages/fbt/node_modules/.bin/fbt-*
 website/build/
 website/node_modules
 website/.docusaurus
+node_modules

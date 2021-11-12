@@ -26,10 +26,10 @@ export type TranslationDict = {
 const DEFAULT_SRC_LOCALE = 'en_US';
 
 const FbtTranslations = {
-  getTranslatedInput(input: FbtRuntimeCallInput, locale: FbtRuntimeCallInput): ?FbtTranslatedInput {
+  getTranslatedInput(input: FbtRuntimeCallInput, userInputLocale: FbtRuntimeCallInput): ?FbtTranslatedInput {
     const {args, options} = input;
     const hashKey = options?.hk;
-    const locale = locale || FbtHooks.getViewerContext().locale;
+    const locale = userInputLocale || FbtHooks.getViewerContext().locale;
     const table = translatedFbts[locale];
     if (__DEV__) {
       if (!table && locale !== DEFAULT_SRC_LOCALE) {

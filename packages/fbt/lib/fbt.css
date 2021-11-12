@@ -1,0 +1,14 @@
+/**
+ * fbt v0.16.6
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * @generated
+ * @nolint
+ * @nogrep
+ * @emails oncall+i18n_fbt_js
+ */
+.intlInlineMode_normal{font-style:normal}.intlInlineMode_approvable,.intlInlineMode_reportable,.intlInlineMode_translatable{background:0 0;font-style:normal;padding:0;width:auto}.intlInlineMode_reportable{border-bottom:1px solid #f99}.intlInlineMode_approvable,.intlInlineMode_translatable{border-bottom:1px solid #999}.intlInlineMode_approvable:hover,.intlInlineMode_reportable:hover,.intlInlineMode_translatable:hover{background-color:#fcc;border-top:1px solid #ccc;cursor:help}
